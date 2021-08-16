@@ -8,9 +8,7 @@ import routeConfiguration from "./routeConfiguration";
 import Routes from "./Routes";
 import { authInfoSuccess } from "./ducks/auth.duck";
 import "./index.css";
-// import App from "./components/App/App";
 import * as ServiceWorkerRegistration from "./serviceWorkerRegistration";
-// import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // store
@@ -25,7 +23,6 @@ firebase.auth().onAuthStateChanged((user) => {
           <Routes routes={routeConfiguration()} />
         </BrowserRouter>
       </Provider>
-      {/* <App /> */}
     </React.StrictMode>,
     document.getElementById("root")
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Switch, Route } from "react-router-dom";
-import PageNotFound from "./components/PageNoteFound/PageNoteFound";
 import RouteComponent from "./RouteComponent";
 
 const Routes = ({ routes }) => {
@@ -27,7 +26,6 @@ const Routes = ({ routes }) => {
   return (
     <Switch>
       {routes.map(toRouteComponent)}
-      <Route component={PageNotFound} />
     </Switch>
   );
 };

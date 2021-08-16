@@ -1,8 +1,7 @@
-import { FormControl, InputLabel, Select, TextField } from "@material-ui/core";
-import React, { useEffect, useRef } from "react";
-import Option from "./Option";
+import { TextField } from "@material-ui/core";
+import React, { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchDictionary, setDictionary } from "../../ducks/rapidApi.duck";
+import { fetchDictionary } from "../../ducks/rapidApi.duck";
 
 const Header = () => {
   // getting the searched word
