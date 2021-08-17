@@ -57,11 +57,11 @@ const Login = (props) => {
             <Form onSubmit={handleSubmit}>
               <Form.Group id="email">
                 <Form.Label>Email</Form.Label>
-                <Form.Control type="email" ref={emailRef} value="naazacchi@gmail.com" required />
+                <Form.Control type="email" ref={emailRef} required />
               </Form.Group>
               <Form.Group id="password" className="w-100 mt-3">
                 <Form.Label>Password</Form.Label>
-                <Form.Control type="password" ref={passwordRef} value="22222222" required />
+                <Form.Control type="password" ref={passwordRef} required />
               </Form.Group>
               <Button
                 disabled={loginInProgress}

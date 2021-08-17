@@ -35,7 +35,7 @@ body {
 .avatar:hover {
 	background-color: tomato !important;
 	border: 0.1rem solid tomato !important;
-  color: white;
+    color: white;
 }
 
 .logoutBtn.btn-link {

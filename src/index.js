@@ -7,7 +7,7 @@ import firebase from "./firebase";
 import routeConfiguration from "./routeConfiguration";
 import Routes from "./Routes";
 import { authInfoSuccess } from "./ducks/auth.duck";
-import "./index.css";
+import "./styles.css";
 import * as ServiceWorkerRegistration from "./serviceWorkerRegistration";
 import "bootstrap/dist/css/bootstrap.min.css";
 
